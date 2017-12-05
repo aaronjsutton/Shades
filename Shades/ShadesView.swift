@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+/// The base class for Shades views.
 @IBDesignable open class ShadesView: UIView {
 
 	/// The radius of the view's rounded corners
