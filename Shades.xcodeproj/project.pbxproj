@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC62744A1FD7163400433E14 /* Shades.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6274401FD7163400433E14 /* Shades.framework */; };
-		CC62744F1FD7163400433E14 /* ShadesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62744E1FD7163400433E14 /* ShadesTests.swift */; };
 		CC6274511FD7163400433E14 /* Shades.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6274431FD7163400433E14 /* Shades.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC62745D1FD7173800433E14 /* ShadesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62745C1FD7173800433E14 /* ShadesView.swift */; };
+		CC6274651FD71B0400433E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6274641FD71B0400433E14 /* AppDelegate.swift */; };
+		CC6274671FD71B0400433E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6274661FD71B0400433E14 /* ViewController.swift */; };
+		CC62746A1FD71B0400433E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6274681FD71B0400433E14 /* Main.storyboard */; };
+		CC62746D1FD71B0400433E14 /* Example_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC62746B1FD71B0400433E14 /* Example_App.xcdatamodeld */; };
+		CC62746F1FD71B0400433E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC62746E1FD71B0400433E14 /* Assets.xcassets */; };
+		CC6274721FD71B0400433E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6274701FD71B0400433E14 /* LaunchScreen.storyboard */; };
+		CC6274931FD71F0D00433E14 /* Shades.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6274401FD7163400433E14 /* Shades.framework */; };
+		CC6274941FD71F0D00433E14 /* Shades.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC6274401FD7163400433E14 /* Shades.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CC62744B1FD7163400433E14 /* PBXContainerItemProxy */ = {
+		CC6274951FD71F0D00433E14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CC6274371FD7163400433E14 /* Project object */;
 			proxyType = 1;
@@ -22,13 +29,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CC6274971FD71F0D00433E14 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC6274941FD71F0D00433E14 /* Shades.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		CC6274401FD7163400433E14 /* Shades.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shades.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6274431FD7163400433E14 /* Shades.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shades.h; sourceTree = "<group>"; };
 		CC6274441FD7163400433E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC6274491FD7163400433E14 /* ShadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC62744E1FD7163400433E14 /* ShadesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadesTests.swift; sourceTree = "<group>"; };
-		CC6274501FD7163400433E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC62745C1FD7173800433E14 /* ShadesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadesView.swift; sourceTree = "<group>"; };
+		CC6274621FD71B0400433E14 /* Example App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6274641FD71B0400433E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC6274661FD71B0400433E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC6274691FD71B0400433E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC62746C1FD71B0400433E14 /* Example_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Example_App.xcdatamodel; sourceTree = "<group>"; };
+		CC62746E1FD71B0400433E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC6274711FD71B0400433E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC6274731FD71B0400433E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +66,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC6274461FD7163400433E14 /* Frameworks */ = {
+		CC62745F1FD71B0400433E14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC62744A1FD7163400433E14 /* Shades.framework in Frameworks */,
+				CC6274931FD71F0D00433E14 /* Shades.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				CC6274421FD7163400433E14 /* Shades */,
-				CC62744D1FD7163400433E14 /* ShadesTests */,
+				CC6274631FD71B0400433E14 /* Example App */,
 				CC6274411FD7163400433E14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				CC6274401FD7163400433E14 /* Shades.framework */,
-				CC6274491FD7163400433E14 /* ShadesTests.xctest */,
+				CC6274621FD71B0400433E14 /* Example App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,19 +98,25 @@
 		CC6274421FD7163400433E14 /* Shades */ = {
 			isa = PBXGroup;
 			children = (
+				CC62745C1FD7173800433E14 /* ShadesView.swift */,
 				CC6274431FD7163400433E14 /* Shades.h */,
 				CC6274441FD7163400433E14 /* Info.plist */,
 			);
 			path = Shades;
 			sourceTree = "<group>";
 		};
-		CC62744D1FD7163400433E14 /* ShadesTests */ = {
+		CC6274631FD71B0400433E14 /* Example App */ = {
 			isa = PBXGroup;
 			children = (
-				CC62744E1FD7163400433E14 /* ShadesTests.swift */,
-				CC6274501FD7163400433E14 /* Info.plist */,
+				CC6274641FD71B0400433E14 /* AppDelegate.swift */,
+				CC6274661FD71B0400433E14 /* ViewController.swift */,
+				CC6274681FD71B0400433E14 /* Main.storyboard */,
+				CC62746E1FD71B0400433E14 /* Assets.xcassets */,
+				CC6274701FD71B0400433E14 /* LaunchScreen.storyboard */,
+				CC6274731FD71B0400433E14 /* Info.plist */,
+				CC62746B1FD71B0400433E14 /* Example_App.xcdatamodeld */,
 			);
-			path = ShadesTests;
+			path = "Example App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,23 +151,24 @@
 			productReference = CC6274401FD7163400433E14 /* Shades.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC6274481FD7163400433E14 /* ShadesTests */ = {
+		CC6274611FD71B0400433E14 /* Example App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC6274571FD7163400433E14 /* Build configuration list for PBXNativeTarget "ShadesTests" */;
+			buildConfigurationList = CC62748A1FD71B0500433E14 /* Build configuration list for PBXNativeTarget "Example App" */;
 			buildPhases = (
-				CC6274451FD7163400433E14 /* Sources */,
-				CC6274461FD7163400433E14 /* Frameworks */,
-				CC6274471FD7163400433E14 /* Resources */,
+				CC62745E1FD71B0400433E14 /* Sources */,
+				CC62745F1FD71B0400433E14 /* Frameworks */,
+				CC6274601FD71B0400433E14 /* Resources */,
+				CC6274971FD71F0D00433E14 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC62744C1FD7163400433E14 /* PBXTargetDependency */,
+				CC6274961FD71F0D00433E14 /* PBXTargetDependency */,
 			);
-			name = ShadesTests;
-			productName = ShadesTests;
-			productReference = CC6274491FD7163400433E14 /* ShadesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "Example App";
+			productName = "Example App";
+			productReference = CC6274621FD71B0400433E14 /* Example App.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,9 +182,10 @@
 				TargetAttributes = {
 					CC62743F1FD7163400433E14 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
-					CC6274481FD7163400433E14 = {
+					CC6274611FD71B0400433E14 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -162,6 +197,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CC6274361FD7163400433E14;
 			productRefGroup = CC6274411FD7163400433E14 /* Products */;
@@ -169,7 +205,7 @@
 			projectRoot = "";
 			targets = (
 				CC62743F1FD7163400433E14 /* Shades */,
-				CC6274481FD7163400433E14 /* ShadesTests */,
+				CC6274611FD71B0400433E14 /* Example App */,
 			);
 		};
 /* End PBXProject section */
@@ -182,10 +218,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC6274471FD7163400433E14 /* Resources */ = {
+		CC6274601FD71B0400433E14 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6274721FD71B0400433E14 /* LaunchScreen.storyboard in Resources */,
+				CC62746F1FD71B0400433E14 /* Assets.xcassets in Resources */,
+				CC62746A1FD71B0400433E14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,26 +235,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC62745D1FD7173800433E14 /* ShadesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC6274451FD7163400433E14 /* Sources */ = {
+		CC62745E1FD71B0400433E14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC62744F1FD7163400433E14 /* ShadesTests.swift in Sources */,
+				CC62746D1FD71B0400433E14 /* Example_App.xcdatamodeld in Sources */,
+				CC6274671FD71B0400433E14 /* ViewController.swift in Sources */,
+				CC6274651FD71B0400433E14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CC62744C1FD7163400433E14 /* PBXTargetDependency */ = {
+		CC6274961FD71F0D00433E14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CC62743F1FD7163400433E14 /* Shades */;
-			targetProxy = CC62744B1FD7163400433E14 /* PBXContainerItemProxy */;
+			targetProxy = CC6274951FD71F0D00433E14 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC6274681FD71B0400433E14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6274691FD71B0400433E14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC6274701FD71B0400433E14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6274711FD71B0400433E14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CC6274521FD7163400433E14 /* Debug */ = {
@@ -334,6 +395,7 @@
 		CC6274551FD7163400433E14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaronjsutton.Shades;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +418,7 @@
 		CC6274561FD7163400433E14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,28 +437,32 @@
 			};
 			name = Release;
 		};
-		CC6274581FD7163400433E14 /* Debug */ = {
+		CC62748B1FD71B0500433E14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79S8R8WVLX;
-				INFOPLIST_FILE = ShadesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaronjsutton.ShadesTests;
+				INFOPLIST_FILE = "Example App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaronjsutton.Example-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CC6274591FD7163400433E14 /* Release */ = {
+		CC62748C1FD71B0500433E14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79S8R8WVLX;
-				INFOPLIST_FILE = ShadesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaronjsutton.ShadesTests;
+				INFOPLIST_FILE = "Example App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaronjsutton.Example-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,16 +490,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC6274571FD7163400433E14 /* Build configuration list for PBXNativeTarget "ShadesTests" */ = {
+		CC62748A1FD71B0500433E14 /* Build configuration list for PBXNativeTarget "Example App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC6274581FD7163400433E14 /* Debug */,
-				CC6274591FD7163400433E14 /* Release */,
+				CC62748B1FD71B0500433E14 /* Debug */,
+				CC62748C1FD71B0500433E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC62746B1FD71B0400433E14 /* Example_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC62746C1FD71B0400433E14 /* Example_App.xcdatamodel */,
+			);
+			currentVersion = CC62746C1FD71B0400433E14 /* Example_App.xcdatamodel */;
+			path = Example_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CC6274371FD7163400433E14 /* Project object */;
 }
