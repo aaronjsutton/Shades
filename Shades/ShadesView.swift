@@ -63,7 +63,7 @@ import UIKit
 	}
 
 	/// The blur of the shadown
-	@IBInspectable var shadowRadius: CGFloat {
+	@IBInspectable public var shadowRadius: CGFloat {
 		get {
 			return layer.shadowRadius
 		}
@@ -73,7 +73,7 @@ import UIKit
 	}
 
 	/// The opacity of the shadow applied to the view
-	@IBInspectable var shadowOpacity: Float {
+	@IBInspectable public var shadowOpacity: Float {
 		get {
 			return layer.shadowOpacity
 		}
