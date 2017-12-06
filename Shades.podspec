@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Shades"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Easily add drop shadows, borders, and round corners to a UIView."
 
   # This description is used to generate tags and improve search results.
@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.platform     = :ios, "8.0"
-  
+
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
