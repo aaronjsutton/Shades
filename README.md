@@ -44,3 +44,7 @@ shadeView.shadowOpacity = 0.8
 Would produce:
 
 ![Example](https://docs.aaronjsutton.com/shades/img/sim.png)
+
+## TO-DO:
+
+- [ ] Support more UIKit types.
