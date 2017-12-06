@@ -1,5 +1,7 @@
 ![Logo](https://docs.aaronjsutton.com/shades/img/logo.png)
 Easily add drop shadows, borders, rounded corners to a UIView.
+[![Build Status](https://travis-ci.org/aaronjsutton/Shades.svg?branch=master)](https://travis-ci.org/aaronjsutton/Shades)
+[![CocoaPods](https://img.shields.io/cocoapods/v/Shades.svg)]()
 
 
 ## Installation
